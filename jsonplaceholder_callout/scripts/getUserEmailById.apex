@@ -1,0 +1,1 @@
+System.debug(JSONPlaceholderAPI.service.getUserEmailById(1));

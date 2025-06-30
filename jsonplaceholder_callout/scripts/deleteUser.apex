@@ -1,0 +1,1 @@
+JSONPlaceholderAPI.service.deleteUser(1);
