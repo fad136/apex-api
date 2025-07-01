@@ -21,7 +21,7 @@ export default class BreakingBadQuotes extends LightningElement {
                 this.quote = data[0].quote;
                 this.author = data[0].author;
 
-                //add the https://upload.wikimedia.org to the Trusted URLs, allowing the image-src and frame-src setting
+                //add the https://upload.wikimedia.org & https://static.wikia.nocookie.net to the Trusted URLs, allowing the image-src and frame-src setting
                 if (data[0].author === 'Jesse Pinkman') {
                     this.authorImage = 'https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Jesse_Pinkman_S5B.png/250px-Jesse_Pinkman_S5B.png';
                 } else if (data[0].author === 'Walter White') {
