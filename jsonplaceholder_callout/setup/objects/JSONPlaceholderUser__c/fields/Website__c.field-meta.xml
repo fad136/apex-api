@@ -3,7 +3,6 @@
     <fullName>Website__c</fullName>
     <label>Website</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Url</type>
-</CustomField> 
+</CustomField>
